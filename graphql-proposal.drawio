@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T11:37:04.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="DrVDXX25Dtz7NnsGd_Bn" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-15T11:37:58.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="EQyDkFxSWXvjhOq_mFQI" version="20.0.1" type="github" pages="4">
   <diagram id="vRsPocj77_2FEiKNVlzF" name="Top Architecture">
     <mxGraphModel dx="2272" dy="1893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -570,7 +570,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="knz0a9d9VxvIC_e_5276" name="ER-Diagram">
-    <mxGraphModel dx="3401" dy="1682" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3459" dy="1714" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -656,8 +656,8 @@
             <mxRectangle width="295.25" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aNnYXGy_gdvhfh5rHS9c-23" value="account_id UNSIGNED INT NOT NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="547.5" y="-310" width="225" height="20" as="geometry" />
+        <mxCell id="aNnYXGy_gdvhfh5rHS9c-23" value="account_number UNSIGNED INT NOT NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="545" y="-310" width="255" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aNnYXGy_gdvhfh5rHS9c-24" value="interest UNSIGNED FLOAT NOT NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="550" y="-155" width="220" height="20" as="geometry" />
@@ -720,8 +720,8 @@
             <mxRectangle width="340" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aNnYXGy_gdvhfh5rHS9c-41" value="account_id UNSIGNED INT NOT NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry y="-270" width="225" height="20" as="geometry" />
+        <mxCell id="aNnYXGy_gdvhfh5rHS9c-41" value="account_number UNSIGNED INT NOT NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-2.5" y="-305" width="255" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aNnYXGy_gdvhfh5rHS9c-42" value="interest UNSIGNED FLOAT NOT NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry y="-235" width="220" height="20" as="geometry" />
@@ -732,7 +732,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aNnYXGy_gdvhfh5rHS9c-44" value="home_loan_type&amp;nbsp; UNSIGNED INT NOT NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry y="-305" width="260" height="20" as="geometry" />
+          <mxGeometry x="5" y="-270" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aNnYXGy_gdvhfh5rHS9c-45" value="tenure&amp;nbsp;&lt;span style=&quot;background-color: rgb(246, 246, 246); color: rgb(33, 37, 41); font-family: SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13.125px; text-align: left;&quot;&gt;UNSIGNED FLOAT NOT NULL&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-5" y="-190" width="220" height="20" as="geometry" />
@@ -790,8 +790,8 @@
             <mxRectangle width="300" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aNnYXGy_gdvhfh5rHS9c-61" value="account_id UNSIGNED INT NOT NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-517.5" y="-310" width="225" height="20" as="geometry" />
+        <mxCell id="aNnYXGy_gdvhfh5rHS9c-61" value="account_number UNSIGNED INT NOT NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-515" y="-310" width="255" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aNnYXGy_gdvhfh5rHS9c-62" value="interest UNSIGNED FLOAT NOT NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-512.5" y="-190" width="220" height="20" as="geometry" />
