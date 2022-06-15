@@ -1,11 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T09:16:02.404Z" agent="5.0 (Windows)" etag="Q_CJ2C3LEVXGfeJ2Rsut" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-15T09:23:27.445Z" agent="5.0 (Windows)" etag="UDtZ7B7jR9s_wvPPzEUJ" version="20.0.1" type="github" pages="2">
   <diagram id="vRsPocj77_2FEiKNVlzF" name="Top Architecture">
     <mxGraphModel dx="868" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CYnxBcoMD72s8sqLq3w8-9" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.db_on_instance;fillColor=#D0F3F5;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="150" width="90" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="CYnxBcoMD72s8sqLq3w8-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.db_on_instance;fillColor=#D0F3F5;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620" y="40" width="60" height="80" as="geometry" />
+          <mxGeometry x="630" y="260" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CYnxBcoMD72s8sqLq3w8-3" value="&lt;div&gt;&lt;b&gt;Account &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Masters&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontFamily=Tahoma;fontSize=12;fontColor=#000099;" vertex="1" parent="1">
+          <mxGeometry x="730" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CYnxBcoMD72s8sqLq3w8-7" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.db_on_instance;fillColor=#D0F3F5;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="41" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CYnxBcoMD72s8sqLq3w8-8" value="&lt;div&gt;&lt;b&gt;Funds&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Transfer&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontFamily=Tahoma;fontSize=12;fontColor=#000099;" vertex="1" parent="1">
+          <mxGeometry x="730" y="285" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CYnxBcoMD72s8sqLq3w8-10" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.db_on_instance;fillColor=#D0F3F5;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="370" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CYnxBcoMD72s8sqLq3w8-11" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.db_on_instance;fillColor=#D0F3F5;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="480" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CYnxBcoMD72s8sqLq3w8-12" value="Loans" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3;fontFamily=Tahoma;fontSize=12;fontColor=#000099;" vertex="1" parent="1">
+          <mxGeometry x="740" y="70" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CYnxBcoMD72s8sqLq3w8-13" value="&lt;div&gt;&lt;b&gt;Service &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Request&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontFamily=Tahoma;fontSize=12;fontColor=#000099;" vertex="1" parent="1">
+          <mxGeometry x="730" y="395" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CYnxBcoMD72s8sqLq3w8-14" value="&lt;b&gt;Cards&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontFamily=Tahoma;fontSize=12;fontColor=#000099;" vertex="1" parent="1">
+          <mxGeometry x="740" y="510" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
