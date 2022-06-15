@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T12:43:50.888Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="aTXy3nNHlgzex6XTgp-w" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-15T12:45:17.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ViZIJzrtnPlE8hCJq7o3" version="20.0.1" type="github" pages="4">
   <diagram id="vRsPocj77_2FEiKNVlzF" name="Top Architecture">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -196,7 +196,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tWN6ITL1jaFZWvNV8QjN" name="Frontend">
-    <mxGraphModel dx="2130" dy="727" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1805" dy="545" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -724,7 +724,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TnENoxrDW-XxtPM1q_m--111" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2202" y="394" width="551" height="225" as="geometry" />
+          <mxGeometry x="2228" y="698" width="551" height="225" as="geometry" />
         </mxCell>
         <mxCell id="TnENoxrDW-XxtPM1q_m--112" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2573" y="327" width="179" height="38" as="geometry" />
@@ -950,7 +950,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tUSSVG5yrnig0_DkIaiP-14" value="Statement" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;swimlaneFillColor=default;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1136" y="136" width="691" height="150" as="geometry" />
+          <mxGeometry x="1146" y="155" width="691" height="150" as="geometry" />
         </mxCell>
         <mxCell id="tUSSVG5yrnig0_DkIaiP-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tUSSVG5yrnig0_DkIaiP-14">
           <mxGeometry y="30" width="691" height="40" as="geometry" />
@@ -1035,6 +1035,15 @@
           <mxGeometry x="553" width="138" height="40" as="geometry">
             <mxRectangle width="138" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tUSSVG5yrnig0_DkIaiP-33" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1675" y="100" width="152" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tUSSVG5yrnig0_DkIaiP-34" value="Account No." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1692" y="100" width="109" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tUSSVG5yrnig0_DkIaiP-35" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.down;strokeColor=#0080f0;" vertex="1" parent="1">
+          <mxGeometry x="1796" y="114" width="12" height="6" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
