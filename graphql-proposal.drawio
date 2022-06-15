@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T12:46:22.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="hF0wyaEG-5ohxcEwOdHo" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-15T12:47:20.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="i0IX2nSCgOQ28V8Eoaef" version="20.0.1" type="github" pages="4">
   <diagram id="vRsPocj77_2FEiKNVlzF" name="Top Architecture">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -196,7 +196,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tWN6ITL1jaFZWvNV8QjN" name="Frontend">
-    <mxGraphModel dx="2249" dy="793" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2391" dy="872" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,57 +256,6 @@
         </mxCell>
         <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-23" value="101, Clock Tower, Gurgaon" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="137" y="267" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="455" y="75" width="335" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-25" value="Account Details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="575" y="85" width="95" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="455" y="110" as="sourcePoint" />
-            <mxPoint x="790.0000000000002" y="110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-27" value="Account No.:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="482.5" y="122.5" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-31" value="Rate of Interest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="475" y="177.5" width="105" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-32" value="IFSC:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="475" y="137.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-33" value="1021********34" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="572.5" y="115" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-37" value="3.5%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="612.5" y="182.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-38" value="HZ002345" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="532.5" y="135" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-43" value="Balance:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="482.5" y="157.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-44" value="Account Type:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="482.5" y="202.5" width="85" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-45" value="Home branch code:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="482.5" y="227.5" width="115" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-46" value="50,000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="612.5" y="162.5" width="60" height="30.5" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-47" value="Saving Account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="602.5" y="202.5" width="115" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-48" value="HauzKhas0023" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="632.5" y="227.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-49" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-regular-vol-3/24/bx-rupee-128.png" vertex="1" parent="1">
-          <mxGeometry x="667.5" y="170" width="15" height="15" as="geometry" />
         </mxCell>
         <mxCell id="mEwxDdKx8X9GUq1SJ9Rs-165" value="Accounts" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;swimlaneFillColor=default;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="52" y="373" width="730" height="190" as="geometry" />
