@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T11:27:43.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nz-roYv2_KJbN995NZsd" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-15T11:34:18.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Hg4ZG7IZE1vIPk2G3qjE" version="20.0.1" type="github" pages="4">
   <diagram id="vRsPocj77_2FEiKNVlzF" name="Top Architecture">
     <mxGraphModel dx="2428" dy="1987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -422,7 +422,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="knz0a9d9VxvIC_e_5276" name="ER-Diagram">
-    <mxGraphModel dx="4651" dy="2389" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5374" dy="2796" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1115,7 +1115,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2AicZIG3mlAm-CI6rhw_" name="1) Overview">
-    <mxGraphModel dx="2007" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2297" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1150,10 +1150,16 @@
           <mxGeometry x="947" y="80" width="100" height="880" as="geometry" />
         </mxCell>
         <mxCell id="yQqlY0zTK81EClHOCgJx-9" value="GraphQL" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="100" y="80" width="100" height="880" as="geometry" />
+          <mxGeometry x="99" y="80" width="100" height="880" as="geometry" />
         </mxCell>
         <mxCell id="yQqlY0zTK81EClHOCgJx-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="yQqlY0zTK81EClHOCgJx-9">
-          <mxGeometry x="45" y="119" width="10" height="701" as="geometry" />
+          <mxGeometry x="-20" y="119" width="75" height="701" as="geometry" />
+        </mxCell>
+        <mxCell id="VddLNellI3y0LjQCh9N2-28" value="1. REST API Request" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="yQqlY0zTK81EClHOCgJx-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-388" y="119" as="sourcePoint" />
+            <mxPoint x="-166.5" y="118.88999999999999" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="yQqlY0zTK81EClHOCgJx-24" value="1. REST API Request" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -1214,9 +1220,6 @@
             </Array>
             <mxPoint x="560" y="520" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="yQqlY0zTK81EClHOCgJx-66" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="50" width="55" height="55" as="geometry" />
         </mxCell>
         <mxCell id="gIY1rf1c2tIQ8b0e-MGf-1" value="GET&amp;nbsp;/customers/{id}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="180" y="210" width="200" height="40" as="geometry" />
@@ -1310,6 +1313,12 @@
         </mxCell>
         <mxCell id="VddLNellI3y0LjQCh9N2-26" value="&lt;span style=&quot;font-family: Verdana; font-size: 12px;&quot;&gt;Masters&lt;/span&gt;&lt;br style=&quot;font-family: Verdana; font-size: 12px;&quot;&gt;&lt;span style=&quot;font-family: Verdana; font-size: 12px;&quot;&gt;Service&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="357" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VddLNellI3y0LjQCh9N2-27" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="40" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="VddLNellI3y0LjQCh9N2-29" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/J/jwt-logo-11B708E375-seeklogo.com.png;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="240" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
