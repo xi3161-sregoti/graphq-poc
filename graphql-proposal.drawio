@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T05:26:29.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="EVYkieA70Jv4FQ6d88TF" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-16T05:28:03.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="FnrZQhudAmp0ZQWDpbYr" version="20.0.1" type="github" pages="4">
   <diagram id="vRsPocj77_2FEiKNVlzF" name="Top Architecture">
     <mxGraphModel dx="2586" dy="2076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1880,6 +1880,12 @@
         <mxCell id="1jOUADJM6UQkA6CILAFF-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/J/jwt-logo-11B708E375-seeklogo.com.png;" vertex="1" parent="1">
           <mxGeometry x="276" y="131" width="60" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="oGTSJ5z5HpbtjXXt-Rsk-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=13;" edge="1" parent="1" target="VddLNellI3y0LjQCh9N2-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-201" y="960" as="sourcePoint" />
+            <mxPoint x="-420" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oGTSJ5z5HpbtjXXt-Rsk-5" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-310" y="141" width="225" height="530" as="geometry" />
         </mxCell>
@@ -1888,6 +1894,15 @@
         </mxCell>
         <mxCell id="oGTSJ5z5HpbtjXXt-Rsk-4" value="&lt;pre&gt;query {&lt;br&gt;&amp;nbsp; getCustomerOverview {&lt;br&gt;&amp;nbsp; &amp;nbsp; customer_id&lt;br&gt;&amp;nbsp; &amp;nbsp; name&lt;br&gt;&amp;nbsp; &amp;nbsp; address&lt;br&gt;&amp;nbsp; &amp;nbsp; date_of_birth&lt;br&gt;&amp;nbsp; &amp;nbsp; national_id&lt;br&gt;&amp;nbsp; &amp;nbsp; accounts {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; account_number&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; balance&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; home_branch_code&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; product_type&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; rate_of_interest&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; personal_loan {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; account_id&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; interest&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; personal_loan_type&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; tenure&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; processing_fees&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; repayment_frequency&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; credit_cards {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; card_number&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; card_borrowing_limit&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; billing_cycle&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; date_of_issue&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; expiry&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; }&lt;br&gt;}&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="oGTSJ5z5HpbtjXXt-Rsk-5">
           <mxGeometry x="22.5" y="20" width="180" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="oGTSJ5z5HpbtjXXt-Rsk-7" value="Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-200" y="908" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-231.49" y="908.8400000000001" />
+            </Array>
+            <mxPoint x="145" y="908.8400000000001" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
