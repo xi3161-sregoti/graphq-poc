@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T08:21:24.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="TTP6sGADkNoO0e2LVGlE" version="20.0.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-06-16T08:22:02.896Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Oj2noMOyzIuBj6YG2sAL" version="20.0.1" type="github" pages="9">
   <diagram id="vRsPocj77_2FEiKNVlzF" name="Top Architecture">
     <mxGraphModel dx="1544" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2369,7 +2369,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tCGn2QoTcVSsH7tK9Aem" name="Mutation">
-    <mxGraphModel dx="2779" dy="1084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1573" dy="407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2412,7 +2412,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_KMDIzwJb48ZCOXyuGYH-13" value="RPC GetTransactions(accountID)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="_KMDIzwJb48ZCOXyuGYH-13" value="RPC InsertNewRequest(accountID)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="174" y="210" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_KMDIzwJb48ZCOXyuGYH-16" value="GraphQL" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
