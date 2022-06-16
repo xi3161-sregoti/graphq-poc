@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T09:21:45.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="qzyGpSqSQw_yR3U1RxZB" version="20.0.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-06-16T09:22:13.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="O2In0gzmAjuoustK_xG5" version="20.0.1" type="github" pages="10">
   <diagram id="vRsPocj77_2FEiKNVlzF" name="Top Architecture">
     <mxGraphModel dx="1544" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2508,7 +2508,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wIezLtVpE3o29dkhWJLH" name="Subscription">
-    <mxGraphModel dx="970" dy="67" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2522,9 +2522,10 @@
           <mxGeometry y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="47qAXYfUMMys1UrA1pDX-1" value="4. gRPC API Request" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="47qAXYfUMMys1UrA1pDX-5">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.5077" relative="1" as="geometry">
             <mxPoint x="417.0100000000002" y="320" as="sourcePoint" />
             <mxPoint x="678.5100000000002" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="47qAXYfUMMys1UrA1pDX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontFamily=Helvetica;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="47qAXYfUMMys1UrA1pDX-25" target="47qAXYfUMMys1UrA1pDX-24">
@@ -2622,7 +2623,7 @@
         </mxCell>
         <mxCell id="47qAXYfUMMys1UrA1pDX-28" value="Return" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="47qAXYfUMMys1UrA1pDX-27">
           <mxGeometry x="0.0405" y="-1" relative="1" as="geometry">
-            <mxPoint x="9" y="2" as="offset" />
+            <mxPoint x="-134" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="47qAXYfUMMys1UrA1pDX-29" value="RPC&amp;nbsp;GetRequest(customerId)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
