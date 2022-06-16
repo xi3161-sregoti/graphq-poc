@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T05:17:26.098Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ty6PRuVEgzV7vhwBUhX3" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-16T05:26:29.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="EVYkieA70Jv4FQ6d88TF" version="20.0.1" type="github" pages="4">
   <diagram id="vRsPocj77_2FEiKNVlzF" name="Top Architecture">
     <mxGraphModel dx="2586" dy="2076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1679,7 +1679,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2AicZIG3mlAm-CI6rhw_" name="1) Overview">
-    <mxGraphModel dx="1361" dy="287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2090" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1852,12 +1852,12 @@
           <mxGeometry x="357" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VddLNellI3y0LjQCh9N2-27" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="40" width="78" height="78" as="geometry" />
+          <mxGeometry x="-240" y="40" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="VddLNellI3y0LjQCh9N2-28" value="GraphQL Request" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+        <mxCell id="VddLNellI3y0LjQCh9N2-28" value="GraphQL Request" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.433;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="oGTSJ5z5HpbtjXXt-Rsk-3" target="eMaNTyFvvDAT9JYTGCQ9-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-700" y="150.67000000000002" as="sourcePoint" />
-            <mxPoint x="-478.5" y="150.56" as="targetPoint" />
+            <mxPoint x="-121.5" y="140.15" as="sourcePoint" />
+            <mxPoint x="100" y="140.04" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eMaNTyFvvDAT9JYTGCQ9-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
@@ -1879,6 +1879,15 @@
         </mxCell>
         <mxCell id="1jOUADJM6UQkA6CILAFF-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/J/jwt-logo-11B708E375-seeklogo.com.png;" vertex="1" parent="1">
           <mxGeometry x="276" y="131" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oGTSJ5z5HpbtjXXt-Rsk-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-310" y="141" width="225" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="oGTSJ5z5HpbtjXXt-Rsk-3" value="&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="oGTSJ5z5HpbtjXXt-Rsk-5">
+          <mxGeometry width="225" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="oGTSJ5z5HpbtjXXt-Rsk-4" value="&lt;pre&gt;query {&lt;br&gt;&amp;nbsp; getCustomerOverview {&lt;br&gt;&amp;nbsp; &amp;nbsp; customer_id&lt;br&gt;&amp;nbsp; &amp;nbsp; name&lt;br&gt;&amp;nbsp; &amp;nbsp; address&lt;br&gt;&amp;nbsp; &amp;nbsp; date_of_birth&lt;br&gt;&amp;nbsp; &amp;nbsp; national_id&lt;br&gt;&amp;nbsp; &amp;nbsp; accounts {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; account_number&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; balance&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; home_branch_code&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; product_type&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; rate_of_interest&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; personal_loan {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; account_id&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; interest&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; personal_loan_type&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; tenure&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; processing_fees&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; repayment_frequency&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; credit_cards {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; card_number&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; card_borrowing_limit&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; billing_cycle&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; date_of_issue&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; expiry&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; }&lt;br&gt;}&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="oGTSJ5z5HpbtjXXt-Rsk-5">
+          <mxGeometry x="22.5" y="20" width="180" height="500" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
