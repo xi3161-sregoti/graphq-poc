@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T05:16:11.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="LSAXaOjEs_ZvMN6Wz8Fw" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-16T05:16:35.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="UCE2QWIp40njm45JjjKK" version="20.0.1" type="github" pages="4">
   <diagram id="vRsPocj77_2FEiKNVlzF" name="Top Architecture">
     <mxGraphModel dx="2586" dy="2076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1679,7 +1679,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2AicZIG3mlAm-CI6rhw_" name="1) Overview">
-    <mxGraphModel dx="1307" dy="257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1764" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1867,18 +1867,18 @@
           <mxGeometry x="150" y="152" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1jOUADJM6UQkA6CILAFF-6" value="1. Authentication" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.933;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="1jOUADJM6UQkA6CILAFF-5">
-          <mxGeometry x="-0.2029" y="85" relative="1" as="geometry">
+          <mxGeometry x="-0.2027" y="-2" relative="1" as="geometry">
             <mxPoint x="160.0000000000001" y="152.02999999999992" as="sourcePoint" />
             <mxPoint x="164.62" y="189.94999999999987" as="targetPoint" />
             <Array as="points">
               <mxPoint x="215" y="152" />
               <mxPoint x="215" y="180" />
             </Array>
-            <mxPoint x="85" y="83" as="offset" />
+            <mxPoint x="2" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1jOUADJM6UQkA6CILAFF-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/J/jwt-logo-11B708E375-seeklogo.com.png;" vertex="1" parent="1">
-          <mxGeometry x="172" y="130" width="60" height="20" as="geometry" />
+          <mxGeometry x="-50" y="132" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
