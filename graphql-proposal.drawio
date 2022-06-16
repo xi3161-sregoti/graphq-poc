@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T07:52:55.686Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="IY3rvcoTVkMiDRKdZrlN" version="20.0.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-06-16T07:55:30.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="QtaitCom6Mp1bNcRyRN-" version="20.0.1" type="github" pages="8">
   <diagram id="vRsPocj77_2FEiKNVlzF" name="Top Architecture">
     <mxGraphModel dx="1544" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2202,7 +2202,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AUEBx0Ssm_8IhKlFiG3n" name="Data Loader">
-    <mxGraphModel dx="1054" dy="115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2297" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2231,9 +2231,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LjOueLwmnyEZCdMHoj3Q-51" value="Return" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="LjOueLwmnyEZCdMHoj3Q-4">
-          <mxGeometry x="-0.0513" y="2" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
+        <mxCell id="LjOueLwmnyEZCdMHoj3Q-57" value="Return" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="LjOueLwmnyEZCdMHoj3Q-4">
+          <mxGeometry x="-0.0469" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-5" value="GraphQL" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
@@ -2282,7 +2282,7 @@
           <mxGeometry x="357" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-32" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="40" width="78" height="78" as="geometry" />
+          <mxGeometry x="-279" y="40" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-33" value="GraphQL Request" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.433;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LjOueLwmnyEZCdMHoj3Q-40" target="LjOueLwmnyEZCdMHoj3Q-34">
           <mxGeometry relative="1" as="geometry">
@@ -2312,18 +2312,18 @@
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-38" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=13;" edge="1" parent="1" target="LjOueLwmnyEZCdMHoj3Q-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-201" y="960" as="sourcePoint" />
-            <mxPoint x="-420" y="250" as="targetPoint" />
+            <mxPoint x="-240" y="960" as="sourcePoint" />
+            <mxPoint x="-459" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-39" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-320" y="140" width="240" height="565.33" as="geometry" />
+          <mxGeometry x="-400" y="140" width="320" height="565.33" as="geometry" />
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-40" value="&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="LjOueLwmnyEZCdMHoj3Q-39">
-          <mxGeometry width="240" height="565.33" as="geometry" />
+          <mxGeometry width="320" height="565.33" as="geometry" />
         </mxCell>
-        <mxCell id="LjOueLwmnyEZCdMHoj3Q-41" value="&lt;pre&gt;query {&lt;br&gt;&amp;nbsp; getCustomerOverview {&lt;br&gt;&amp;nbsp; &amp;nbsp; customer_id&lt;br&gt;&amp;nbsp; &amp;nbsp; name&lt;br&gt;&amp;nbsp; &amp;nbsp; address&lt;br&gt;&amp;nbsp; &amp;nbsp; date_of_birth&lt;br&gt;&amp;nbsp; &amp;nbsp; national_id&lt;br&gt;&amp;nbsp; &amp;nbsp; accounts {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; account_number&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; balance&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; home_branch_code&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; product_type&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; rate_of_interest&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; personal_loan {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; account_id&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; interest&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; personal_loan_type&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; tenure&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; processing_fees&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; repayment_frequency&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; credit_cards {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; card_number&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; card_borrowing_limit&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; billing_cycle&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; date_of_issue&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; expiry&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; }&lt;br&gt;}&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="LjOueLwmnyEZCdMHoj3Q-39">
-          <mxGeometry x="24" y="21.333207547169813" width="192" height="533.3301886792453" as="geometry" />
+        <mxCell id="LjOueLwmnyEZCdMHoj3Q-41" value="&lt;pre&gt;query {&lt;br/&gt;  getTransactions(account_id: 1234) {&lt;br/&gt;    transaction_id&lt;br/&gt;    date&lt;br/&gt;    amount&lt;br/&gt;    mode_of_transfer&lt;br/&gt;    status&lt;br/&gt;    source_account_id&lt;br/&gt;    source_account {&lt;br/&gt;      customer_id&lt;br/&gt;      account_number&lt;br/&gt;      balance&lt;br/&gt;      date_of_opening&lt;br/&gt;      home_branch_code&lt;br/&gt;      rate_of_interest&lt;br/&gt;      product_type&lt;br/&gt;    }&lt;br/&gt;    destination_account_id&lt;br/&gt;    destination_account {&lt;br/&gt;      customer_id&lt;br/&gt;      account_number&lt;br/&gt;      balance&lt;br/&gt;      date_of_opening&lt;br/&gt;      home_branch_code&lt;br/&gt;      rate_of_interest&lt;br/&gt;      product_type&lt;br/&gt;    }&lt;br/&gt;  }&lt;br/&gt;}&lt;br&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="LjOueLwmnyEZCdMHoj3Q-39">
+          <mxGeometry x="32" y="21.333207547169813" width="256" height="533.3301886792453" as="geometry" />
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-42" value="Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -2335,7 +2335,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-43" value="User" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="-261" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="-300" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-44" value="" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.116;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
