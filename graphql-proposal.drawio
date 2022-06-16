@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T05:16:35.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="UCE2QWIp40njm45JjjKK" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-16T05:17:26.098Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ty6PRuVEgzV7vhwBUhX3" version="20.0.1" type="github" pages="4">
   <diagram id="vRsPocj77_2FEiKNVlzF" name="Top Architecture">
     <mxGraphModel dx="2586" dy="2076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1679,7 +1679,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2AicZIG3mlAm-CI6rhw_" name="1) Overview">
-    <mxGraphModel dx="1764" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1361" dy="287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1878,7 +1878,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1jOUADJM6UQkA6CILAFF-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/J/jwt-logo-11B708E375-seeklogo.com.png;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="132" width="60" height="20" as="geometry" />
+          <mxGeometry x="276" y="131" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
