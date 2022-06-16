@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T04:37:00.021Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="CKa5cMs1c_2DYu94x_b1" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-16T04:39:39.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="b8grVjKAsT35PLRPwiHh" version="20.0.1" type="github" pages="4">
   <diagram id="vRsPocj77_2FEiKNVlzF" name="Top Architecture">
     <mxGraphModel dx="3020" dy="2320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1697,7 +1697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2AicZIG3mlAm-CI6rhw_" name="1) Overview">
-    <mxGraphModel dx="2007" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2586" dy="976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1732,19 +1732,7 @@
           <mxGeometry x="947" y="80" width="100" height="880" as="geometry" />
         </mxCell>
         <mxCell id="yQqlY0zTK81EClHOCgJx-9" value="GraphQL" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="99" y="80" width="100" height="880" as="geometry" />
-        </mxCell>
-        <mxCell id="yQqlY0zTK81EClHOCgJx-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="yQqlY0zTK81EClHOCgJx-9">
-          <mxGeometry x="-60" y="119" width="115" height="701" as="geometry" />
-        </mxCell>
-        <mxCell id="VddLNellI3y0LjQCh9N2-28" value="1. REST API Request" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="yQqlY0zTK81EClHOCgJx-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-388" y="119" as="sourcePoint" />
-            <mxPoint x="-166.5" y="118.88999999999999" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eMaNTyFvvDAT9JYTGCQ9-1" value="Authentication" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="yQqlY0zTK81EClHOCgJx-9">
-          <mxGeometry x="-52.5" y="185" width="100" height="20" as="geometry" />
+          <mxGeometry x="49" y="80" width="100" height="880" as="geometry" />
         </mxCell>
         <mxCell id="yQqlY0zTK81EClHOCgJx-24" value="1. REST API Request" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -1753,7 +1741,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yQqlY0zTK81EClHOCgJx-31" value="Note" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="100" y="30" width="100" height="35" as="geometry" />
+          <mxGeometry x="47.5" y="30" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="yQqlY0zTK81EClHOCgJx-32" value="Note" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="367" y="30" width="100" height="35" as="geometry" />
@@ -1894,16 +1882,28 @@
           <mxGeometry x="517" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VddLNellI3y0LjQCh9N2-25" value="GraphQL" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="90" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VddLNellI3y0LjQCh9N2-26" value="&lt;span style=&quot;font-family: Verdana; font-size: 12px;&quot;&gt;Masters&lt;/span&gt;&lt;br style=&quot;font-family: Verdana; font-size: 12px;&quot;&gt;&lt;span style=&quot;font-family: Verdana; font-size: 12px;&quot;&gt;Service&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="357" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VddLNellI3y0LjQCh9N2-27" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="40" width="78" height="78" as="geometry" />
+          <mxGeometry x="-300" y="40" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="VddLNellI3y0LjQCh9N2-28" value="1. REST API Request" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-590" y="130.67000000000002" as="sourcePoint" />
+            <mxPoint x="-368.5" y="130.56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMaNTyFvvDAT9JYTGCQ9-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="115" height="701" as="geometry" />
         </mxCell>
         <mxCell id="VddLNellI3y0LjQCh9N2-29" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/J/jwt-logo-11B708E375-seeklogo.com.png;" vertex="1" parent="1">
-          <mxGeometry x="51.5" y="230" width="90" height="30" as="geometry" />
+          <mxGeometry x="52.5" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMaNTyFvvDAT9JYTGCQ9-1" value="Authentication" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="49" y="202" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
