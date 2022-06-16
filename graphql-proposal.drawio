@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T07:55:58.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Ng_h9OrvmZVkOHg_Pan0" version="20.0.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-06-16T08:01:45.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="XLi0XqmO4kN02ISl60Jo" version="20.0.1" type="github" pages="8">
   <diagram id="vRsPocj77_2FEiKNVlzF" name="Top Architecture">
     <mxGraphModel dx="1544" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2202,7 +2202,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AUEBx0Ssm_8IhKlFiG3n" name="Data Loader">
-    <mxGraphModel dx="2297" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1764" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2219,15 +2219,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-1" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontFamily=Helvetica;fontSize=13;fontColor=#333333;strokeColor=default;strokeWidth=1;fillColor=#f5f5f5;" vertex="1" parent="1">
-          <mxGeometry x="132" y="300" width="468" height="180" as="geometry" />
+          <mxGeometry x="132" y="300" width="468" height="240" as="geometry" />
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Helvetica;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="581" y="461" as="sourcePoint" />
-            <mxPoint x="155.875" y="461" as="targetPoint" />
+            <mxPoint x="581" y="439" as="sourcePoint" />
+            <mxPoint x="155.875" y="439" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="296" y="461" />
-              <mxPoint x="296" y="461" />
+              <mxPoint x="296" y="439" />
+              <mxPoint x="296" y="439" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2243,7 +2243,7 @@
           <mxGeometry x="527" y="80" width="100" height="880" as="geometry" />
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="LjOueLwmnyEZCdMHoj3Q-13">
-          <mxGeometry x="45" y="292" width="10" height="88" as="geometry" />
+          <mxGeometry x="45" y="270" width="10" height="88" as="geometry" />
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-19" value="2. gRPC API Request" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -2270,7 +2270,7 @@
           <mxGeometry x="174" y="210" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-23" value="GET&amp;nbsp;/accounts&amp;amp;ids=1,2,3,4..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="267" y="390" width="200" height="40" as="geometry" />
+          <mxGeometry x="267" y="368" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-29" value="&lt;span style=&quot;font-family: Verdana; font-size: 12px;&quot;&gt;Accounts&lt;br&gt;Service&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="517" y="960" width="120" height="60" as="geometry" />
@@ -2339,8 +2339,8 @@
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-44" value="" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.116;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="154.77000000000044" y="372.14285714285734" as="sourcePoint" />
-            <mxPoint x="572.9300000000003" y="372.31999999999994" as="targetPoint" />
+            <mxPoint x="154.77000000000044" y="350.14285714285734" as="sourcePoint" />
+            <mxPoint x="572.9300000000003" y="350.31999999999994" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-45" value="&lt;span style=&quot;font-family: Verdana; font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;3. REST API Request&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="LjOueLwmnyEZCdMHoj3Q-44">
@@ -2348,19 +2348,19 @@
             <mxPoint x="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LjOueLwmnyEZCdMHoj3Q-50" value="&lt;h3&gt;Get All Accounts In Single API&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="176" y="295" width="230" height="50" as="geometry" />
+        <mxCell id="LjOueLwmnyEZCdMHoj3Q-50" value="&lt;h3&gt;Data Loader : Get All Accounts In Single API&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="150" y="520" width="10" height="30" as="geometry" />
+          <mxGeometry x="150" y="482" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LjOueLwmnyEZCdMHoj3Q-56" value="3. Filtering &amp;amp; Parsing" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.933;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry x="-0.2029" y="15" relative="1" as="geometry">
-            <mxPoint x="160" y="520.0299999999997" as="sourcePoint" />
-            <mxPoint x="160" y="547.99" as="targetPoint" />
+            <mxPoint x="160" y="482.02999999999975" as="sourcePoint" />
+            <mxPoint x="160" y="509.99" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="215" y="520" />
-              <mxPoint x="215" y="548" />
+              <mxPoint x="215" y="482" />
+              <mxPoint x="215" y="510" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
